@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Take two program arguments - <_project_starter_> and <newFolderName>
-# projectStarter=$1
-newFolderName=$1
+# Takes two program arguments - copies <oldFolderName> and renames to argument <newFolderName>
+oldFolderName=$1
+newFolderName=$2
 
 # Copy projectStarter and rename it to newFolderName
-cp -r ~/Desktop/Git-Hub/50-Days-50-Projects/_project_starter_ ~/Desktop/Git-Hub/50-Days-50-Projects/$newFolderName
+cp -r ~/Desktop/Git-Hub/50-Days-50-Projects/$oldFolderName ~/Desktop/Git-Hub/50-Days-50-Projects/$newFolderName
 
 # Add the copied folder to Git
 git add ~/Desktop/Git-Hub/50-Days-50-Projects/$newFolderName

@@ -1,5 +1,9 @@
 # 50-Days-50-Projects
 
+# Projects
+
+Day 1 - Expanding Cards
+
 # Important Bash Commands
 
 git clone {url} - clones git repository onto working computer

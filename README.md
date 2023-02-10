@@ -1,5 +1,3 @@
-# 50-Days-50-Projects
-
 # Projects
 
 Day 1 - Expanding Cards
@@ -14,12 +12,12 @@ git push - confirms changes into repository
 
 # Copy and rename any Folder in:
 
-~/Desktop/Git-Hub/50-Days-50-Projects/
+~/Desktop/Git-Hub/{repoName}/
 
-run $ ./copy-rename-push.sh $oldFolderName $newFolderName
+run $ ./copy-rename-push.sh $repoName $oldFolderName $newFolderName
 
 # Copy _project_starter_ Template and renames it.
 
 i.e day1_expanding_cards
 
-run $ ./project-template.sh $newFolderName
+run $ ./project-template.sh $repoName $newFolderName

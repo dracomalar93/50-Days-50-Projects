@@ -20,4 +20,4 @@ run $ ./copy-rename-push.sh $repoName $oldFolderName $newFolderName
 
 i.e day1_expanding_cards
 
-run $ ./project-template.sh $repoName $newFolderName
+run $ ./project-template.sh $newFolderName
